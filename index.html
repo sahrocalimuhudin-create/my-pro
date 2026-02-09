@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,imitial-scale=1.0" charset="UTF-8">
   <title>Smart Career Suggestions</title>
 
   <!-- Tailwind CSS CDN -->
@@ -10,7 +10,7 @@
 
 <body class="min-h-screen flex items-center justify-center bg-slate-100">
 
-  <div class="bg-white w-full max-w-md p-6 rounded-xl shadow-lg">
+  <div class="bg-white w-full max-w-xl p-6 rounded-xl shadow-lg">
     <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">
       Smart Career Suggestions 
     </h2>
@@ -29,17 +29,16 @@
       required
       class="w-full mt-1 p-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-green-500"
     >
-    <br>
-     
-      <label class="block font-semibold text-gray-700 mt-3">Age</label>
+    <label class="block font-semibold text-gray-700 mt-3">age</label>
       <input 
       type="number" 
-      class="age"
+      id="age"
       placeholder="Enter your age"
       required
       class="w-full mt-1 p-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-green-500"
     >
-      <br>
+    <br>
+    <br>
       <label class="block font-semibold text-gray-700 mt-3">Education Level</label>
       <select 
         id="Education"
@@ -78,8 +77,5 @@
     </form>
   </div>
   <script src="Scrpt.js"></script>
-
-
 </body>
 </html>
-  

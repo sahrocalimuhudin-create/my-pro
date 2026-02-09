@@ -1,4 +1,4 @@
-// Career Object 
+// Career Object (University & Secondary)
 const careerSuggestions = {
   university: {
     technology: ["Software Developer", "Web Developer", "Data Analyst"],
