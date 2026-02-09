@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Career Suggestions</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="min-h-screen flex items-center justify-center bg-slate-100">
+
+  <div class="bg-white w-full max-w-md p-6 rounded-xl shadow-lg">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">
+      Smart Career Suggestions 
+    </h2>
+    <p class="taxt-1px">This project helps students and young people get 
+      career advice based on their interests, age, and skills. 
+      .</p>
+      <br>
+
+    <form action=""></form>
+      
+      <label class="block font-semibold text-gray-700 mt-3">name</label>
+      <input 
+      type="text" 
+      id="name"
+      placeholder="Enter your name"
+      required
+      class="w-full mt-1 p-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-green-500"
+    >
+    <br>
+     
+      <label class="block font-semibold text-gray-700 mt-3">Age</label>
+      <input 
+      type="number" 
+      class="age"
+      placeholder="Enter your age"
+      required
+      class="w-full mt-1 p-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-green-500"
+    >
+      <br>
+      <label class="block font-semibold text-gray-700 mt-3">Education Level</label>
+      <select 
+        id="Education"
+        class="w-full mt-1 p-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-green-500"
+    >
+        <option value="">Select</option>
+        <option value="secondary">Secondary</option>
+        <option value="university">University</option>
+      </select>
+      <br>
+
+
+    <label class="block font-semibold text-gray-700 mt-3">work Area</label>
+    <select 
+      id="work"
+      required
+      class="w-full mt-1 p-2 border rounded-full focus:outline-none focus:ring-2 focus:ring-green-500"
+    > 
+      <option value="">Select</option>
+      <option value="technology">Technology</option>
+      <option value="business">Business</option>
+      <option value="health">Health</option>
+    </select>
+
+    <button
+      onclick="suggestCareer()"
+      class="w-full mt-5 bg-green-700 text-white py-2 rounded-md font-semibold hover:bg-green-800 transition"
+    >
+      Get Career Suggestion
+    </button>
+    <!-- Result -->
+    <div 
+      id="result"
+      class="mt-5 bg-green-50 p-4 rounded-md text-gray-800"
+    ></div>
+    </form>
+  </div>
+  <script src="Scrpt.js"></script>
+
+
+</body>
+</html>
+  
